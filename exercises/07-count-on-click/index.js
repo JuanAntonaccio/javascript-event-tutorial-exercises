@@ -15,3 +15,10 @@ window.increaseCounter = function increaseCounter()
 	//update the screen with the new value
 	document.getElementById('screen').innerHTML = "The counter value is "+counter;
 }
+window.decrementCounter = function decrementCounter()
+{
+	//derease the global counter in one
+	counter--;
+	//update the screen with the new value
+	document.getElementById('screen').innerHTML = "The counter value is "+counter;
+}
