@@ -4,3 +4,6 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+window.addEventListener('click', (event) => {
+    alert("wuju");
+});
